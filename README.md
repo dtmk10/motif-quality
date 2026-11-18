@@ -1,29 +1,16 @@
-# README #
+# JASPAR motif quality, assesment and orthogonal evidence search pipeline #
+Last updated: 18-11-2026
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### Table of Contents ###
 
-### What is this repository for? ###
+- Summary
+- Metrics
+    - RSAT matrix-quality
+    - motif-ranking
+    - %GC concordance
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+### Summary ###
 
-### How do I get set up? ###
+[JASPAR](https://jaspar.elixir.no/) is an open-access database of curated, non-redundant transcription factor (TF)-binding profiles stored as position frequency matrices (PFMs) for TFs across multiple species in different taxonomic groups.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The curated motifs generated using JASPAR_curation_pipeline (referred as internal motif). Are the ones being assesed in this pipeline.
